@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Test">
+  <test thread-count="5" parallel="classes" name="AlertMessages" verbose="5"> 
+	  <parameter name="browserName" value="edge"></parameter>
+	  <parameter name="URL" value="https://demo.automationtesting.in/Alerts.html"></parameter>
+    <classes>
+      <class name="tests.AlertMessages"/>
+    </classes>
+  </test> <!-- AlertMessages -->
+</suite> <!-- Test -->

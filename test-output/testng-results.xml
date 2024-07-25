@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T20:19:13 IST" name="Test" finished-at="2024-07-25T20:19:33 IST" duration-ms="19803">
+    <groups>
+    </groups>
+    <test started-at="2024-07-25T20:19:13 IST" name="AlertMessages" finished-at="2024-07-25T20:19:33 IST" duration-ms="19803">
+      <class name="tests.AlertMessages">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:tests.AlertMessages@33ecda92]" started-at="2024-07-25T20:19:13 IST" name="startReport" finished-at="2024-07-25T20:19:13 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:tests.AlertMessages@33ecda92]" started-at="2024-07-25T20:19:13 IST" name="setData" finished-at="2024-07-25T20:19:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="testcaseDetails()[pri:0, instance:tests.AlertMessages@33ecda92]" started-at="2024-07-25T20:19:13 IST" name="testcaseDetails" finished-at="2024-07-25T20:19:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseDetails -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:tests.AlertMessages@33ecda92]" started-at="2024-07-25T20:19:16 IST" name="browserSetup" finished-at="2024-07-25T20:19:27 IST" duration-ms="10592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.automationtesting.in/Alerts.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="checkalertMessages(java.lang.String)[pri:0, instance:tests.AlertMessages@33ecda92]" started-at="2024-07-25T20:19:27 IST" name="checkalertMessages" data-provider="alertMessages" finished-at="2024-07-25T20:19:33 IST" duration-ms="5808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[click the button to display a confirm box]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkalertMessages -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.AlertMessages@33ecda92]" started-at="2024-07-25T20:19:33 IST" name="afterMethod" finished-at="2024-07-25T20:19:33 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:tests.AlertMessages@33ecda92]" started-at="2024-07-25T20:19:33 IST" name="stopReport" finished-at="2024-07-25T20:19:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- tests.AlertMessages -->
+    </test> <!-- AlertMessages -->
+  </suite> <!-- Test -->
+</testng-results>
